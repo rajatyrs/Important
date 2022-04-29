@@ -12,7 +12,8 @@ public class AmznLogin extends AmazonLogin {
 
 		driver.manage().window().maximize();
 
-		driver.close();
+		
+		driver.manage().window().minimize();
 
 	}
 
