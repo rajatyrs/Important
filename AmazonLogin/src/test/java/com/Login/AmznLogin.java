@@ -10,6 +10,10 @@ public class AmznLogin extends AmazonLogin {
 
 		Momo.PageLaunch();
 
+		driver.manage().window().maximize();
+
+		driver.close();
+
 	}
 
 }
